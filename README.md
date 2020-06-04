@@ -11,9 +11,8 @@ git clone https://github.com/Tony607/tf_jetson_nano
 ### Install required libraries for your development machine
 `pip3 install -r requirements.txt`
 ## A. The Keras Image classification model
-[How to run Keras model on Jetson Nano](https://www.dlology.com/blog/how-to-run-keras-model-on-jetson-nano/) | DLology Blog
 ### Step1: Convert Keras model into TensorRT model
-On development machine or [Google Colab](https://colab.research.google.com/github/Tony607/tf_jetson_nano/blob/master/Step1_Colab_TensorRT.ipynb)
+On development machine or Google Colab
 
 
 To run locally, start a terminal, then run,
@@ -36,10 +35,10 @@ In another machine's browser, open the notebook,
 http://<Jetson Nano's LAN IP address>:8888/notebooks/Step2_keras-jetson-ImageNet-predict.ipynb
 ```
 ## B.Tensorflow object detection model
-[How to run TensorFlow Object Detection model on Jetson Nano](https://www.dlology.com/blog/how-to-run-tensorflow-object-detection-model-on-jetson-nano/) | DLology Blog
+
 
 ### Step1: Convert Tensorflow object detection model into TensorRT model 
-On development machine or [Google Colab Notebook](https://colab.research.google.com/github/Tony607/tf_jetson_nano/blob/master/Step1_Object_detection_Colab_TensorRT.ipynb)
+On development machine or Google Colab Notebook
 
 To run locally, start a terminal, then run,
 ```
